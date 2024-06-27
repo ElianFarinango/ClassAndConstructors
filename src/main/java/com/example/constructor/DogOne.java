@@ -1,6 +1,6 @@
 package com.example.constructor;
 
-public class Perro {
+public class DogOne {
     private String Name;
     public void setName(String Name){
         this.Name=Name;
@@ -9,7 +9,7 @@ public class Perro {
         return Name;
     }
     public static void main(String[] args) {
-        Perro puppy = new Perro();
+        DogOne puppy = new DogOne();
         puppy.setName("Benji");
         System.out.println(puppy.getName());
     }
